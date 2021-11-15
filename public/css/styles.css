@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    width:100%;
+    height:100%;
+}
+
+body {
+    display: box;
+    color: white;
+    background-color: #121125;
+}
+
+.form {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+}
+
+.radio {
+    margin: 1vw 1vw 1vw 1vw;
+    padding: 0.8rem;
+}
+
+radio:disabled {
+    background-color: #121125;
+}
+
+.form form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.radiobuttons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center
+}
